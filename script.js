@@ -296,26 +296,3 @@ class App {
 }
 
 const app = new App();
-
-/*
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au bieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au bieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-Apportez ce whisky au vieux juge blond qui fume
-*/
