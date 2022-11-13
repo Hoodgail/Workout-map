@@ -191,8 +191,9 @@ a:visited {
 
 /* MAP */
 #map {
-  flex: 1;
+  flex: auto;
   height: 100%;
+  width: 100%;
   background-color: var(--color-light--1);
 }
 
