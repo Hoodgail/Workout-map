@@ -1,11 +1,13 @@
 import React from 'react';
+import Logo from '../../assets/logo.png';
+import Icon from '../../assets/icon.png';
 
 function Sidebar() {
   // function
 
   return (
     <div class="sidebar">
-      <img src="logo.png" alt="Logo" class="logo" />
+      <img src={Logo} alt="Logo" class="logo" />
 
       <ul class="workouts">
         <form class="form hidden">
