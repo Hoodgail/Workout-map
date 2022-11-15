@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../../assets/logo.png';
-import Icon from '../../assets/icon.png';
 
 function Sidebar() {
   // function

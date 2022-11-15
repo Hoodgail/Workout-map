@@ -30,8 +30,6 @@ body {
 
   background-color: #fff;
   padding: 2.5rem;
-
-  display: flex;
 }
 
 /* GENERAL */
@@ -192,4 +190,5 @@ a:visited {
 .leaflet-container {
   width: 100%;
   height: 100vh;
+  display: flex;
 }
