@@ -1,14 +1,12 @@
-import './style.css';
+import './App.css';
 import Sidebar from './components/Sidebar';
 import Map from './components/Map';
 
 function App() {
   return (
     <div>
-      <main>
-        {/*<Sidebar></Sidebar>*/}
-        <Map></Map>
-      </main>
+      <Sidebar></Sidebar>
+      <Map></Map>
     </div>
   );
 }
