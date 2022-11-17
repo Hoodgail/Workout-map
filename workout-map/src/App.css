@@ -1,6 +1,6 @@
 :root {
-  --color-brand--1: #ffb545;
-  --color-brand--2: #00c46a;
+  --bg-color: #5e5763;
+  --link-color: #3030a7;
 
   --color-dark--1: #2d3439;
   --color-dark--2: #42484d;
@@ -22,7 +22,6 @@ html {
 
 body {
   font-family: 'Manrope', sans-serif;
-  color: var(--color-light--2);
   font-weight: 400;
   line-height: 1.6;
   height: 100vh;
@@ -35,13 +34,13 @@ body {
 /* GENERAL */
 a:link,
 a:visited {
-  color: var(--color-brand--1);
+  color: var(--link-color);
 }
 
 /* SIDEBAR */
 .sidebar {
   flex-basis: 50rem;
-  background-color: var(--color-dark--1);
+  background-color: var(--bg-color);
   padding: 3rem 5rem 4rem 5rem;
   display: flex;
   flex-direction: column;
@@ -75,12 +74,6 @@ a:visited {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.75rem 1.5rem;
 }
-.workout--running {
-  border-left: 5px solid var(--color-brand--2);
-}
-.workout--cycling {
-  border-left: 5px solid var(--color-brand--1);
-}
 
 .workout__title {
   font-size: 1.7rem;
@@ -106,7 +99,6 @@ a:visited {
 
 .workout__unit {
   font-size: 1.1rem;
-  color: var(--color-light--1);
   text-transform: uppercase;
   font-weight: 800;
 }
@@ -156,13 +148,11 @@ a:visited {
   font-size: 1.4rem;
   border: none;
   border-radius: 3px;
-  background-color: var(--color-light--3);
   transition: all 0.2s;
 }
 
 .form__input:focus {
   outline: none;
-  background-color: #fff;
 }
 
 .form__btn {
@@ -173,18 +163,6 @@ a:visited {
   margin-top: auto;
   font-size: 1.3rem;
   text-align: center;
-  color: var(--color-light--1);
-}
-
-.twitter-link:link,
-.twitter-link:visited {
-  color: var(--color-light--1);
-  transition: all 0.2s;
-}
-
-.twitter-link:hover,
-.twitter-link:active {
-  color: var(--color-light--2);
 }
 
 .leaflet-container {
